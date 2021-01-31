@@ -14,6 +14,7 @@ class Server(DatagramProtocol):
 
 
 if __name__ == "__main__":
+    # for to run
     reactor.listenUDP(9999,Server())
     reactor.run()
 
